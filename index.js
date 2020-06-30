@@ -1,3 +1,12 @@
+// 1. Create NPM Project and Add Dependencies
+// 2. Declaring Proto File and Note Message
+// 3. Implement and Run gRPC Server Locally
+// 4. Create Our List RPC method to Fetch Notes
+// 5. Create gRPC Client to call our List gRPC Service Method
+// 6. Create Delete RPC Service to Delete Existing Note
+
+
+
 const grpc = require('grpc')
 const notesProto = grpc.load('notes.proto')
 const uuidv1 = require('uuid/v1')
